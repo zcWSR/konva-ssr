@@ -1,0 +1,20 @@
+{
+  "include": ["**/*"],
+  "exclude": ["dist/**/*"],
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

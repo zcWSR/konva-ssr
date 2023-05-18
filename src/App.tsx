@@ -1,5 +1,4 @@
 import React from 'react';
-import 'konva/lib/shapes/Rect';
 import { Layer, Rect } from "react-konva";
 
 const App = () => {

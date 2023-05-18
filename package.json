@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "rm -rf out.png && node dist/index.js",
+    "start:dev": "npm run build && rm -rf out.png && node dist/index.js",
     "build": "rm -rf dist && swc ./src -d dist",
     "watch": "swc ./src -d dist --watch",
     "test": "node dist/test.js"

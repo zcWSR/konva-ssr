@@ -17,4 +17,6 @@ const run = async () => {
   fs.writeFileSync(process.cwd() + '/out.png', buffer)
 }
 
+console.time()
 run()
+console.timeEnd()

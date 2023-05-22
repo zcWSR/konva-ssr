@@ -14,8 +14,7 @@
     "@swc/core": "^1.3.56"
   },
   "scripts": {
-    "start": "rm -rf out.png && node dist/index.js",
-    "start:dev": "npm run build && rm -rf out.png && node dist/index.js",
+    "start": "npm run build && rm -rf out.png && node dist/test/index.js",
     "build": "rm -rf dist && swc ./src -d dist",
     "watch": "swc ./src -d dist --watch",
     "test": "node dist/test.js"
